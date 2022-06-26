@@ -45,6 +45,8 @@ HEROKU_API_KEY = 9c30d3ad-dc13-422a-9981-252922601c70
 HEROKU_APP_NAME = ml-regression-project-app1
 BUILD DOCKER IMAGE
 
+BUILD DOCKER IMAGE
+
 docker build -t <image_name>:<tagname> .
 Note: Image name for docker must be lowercase
 
@@ -60,3 +62,7 @@ docker ps
 Tos stop docker conatiner
 
 docker stop <container_id>
+python setup.py install
+Install ipykernel
+
+pip install ipykernel
